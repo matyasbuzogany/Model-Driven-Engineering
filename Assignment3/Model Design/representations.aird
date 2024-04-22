@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:robocode="http://www.example.org/robocode" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_VqirsNVPEeyv38WTMQp9jw" selectedViews="_8duBcNVPEeyv38WTMQp9jw" version="15.0.0.202201261500">
+    <semanticResources>My.robocode</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_8duBcNVPEeyv38WTMQp9jw">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_-eUAMNVPEeyv38WTMQp9jw" name="new DiagramDescription" repPath="#_-d9a4NVPEeyv38WTMQp9jw" changeId="1414960a-d148-45e9-b7e5-deafcd392af3">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']"/>
+        <target xmi:type="robocode:Root" href="My.robocode#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_-d9a4NVPEeyv38WTMQp9jw">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_-eto0NVPEeyv38WTMQp9jw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_-euP4NVPEeyv38WTMQp9jw" type="Sirius" element="_-d9a4NVPEeyv38WTMQp9jw" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_T1YnMNYbEeywDZ2kNv9Wlw" type="2003" element="_T1GTUNYbEeywDZ2kNv9Wlw">
+          <children xmi:type="notation:Node" xmi:id="_T1acYNYbEeywDZ2kNv9Wlw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_T1bDcNYbEeywDZ2kNv9Wlw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_W2Wd0NYbEeywDZ2kNv9Wlw" type="3010" element="_W2NT4NYbEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_W2Wd0dYbEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_W2Wd0tYbEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_aZw6MNYbEeywDZ2kNv9Wlw" type="3010" element="_aZo-YNYbEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_aZw6MdYbEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_aZw6MtYbEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_htFW0NYbEeywDZ2kNv9Wlw" type="3010" element="_hs9bANYbEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_htFW0dYbEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_htFW0tYbEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_HBBucNYcEeywDZ2kNv9Wlw" type="3010" element="_HA5yoNYcEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_HBBucdYcEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_HBBuctYcEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KG56QNYcEeywDZ2kNv9Wlw" visible="false" type="3010" element="_KG2P5NYcEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_KG56QdYcEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_KG56QtYcEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KG56Q9YcEeywDZ2kNv9Wlw" visible="false" type="3010" element="_KG228NYcEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_KG56RNYcEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_KG56RdYcEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_KG6hUNYcEeywDZ2kNv9Wlw" visible="false" type="3010" element="_KG3eANYcEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_KG6hUdYcEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_KG6hUtYcEeywDZ2kNv9Wlw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_T1bDcdYbEeywDZ2kNv9Wlw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_T1bDctYbEeywDZ2kNv9Wlw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_T1YnMdYbEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="15" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T1YnMtYbEeywDZ2kNv9Wlw" x="64" y="336"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_laljUNYbEeywDZ2kNv9Wlw" type="2003" element="_laYvANYbEeywDZ2kNv9Wlw">
+          <children xmi:type="notation:Node" xmi:id="_lamKYNYbEeywDZ2kNv9Wlw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_lamKYdYbEeywDZ2kNv9Wlw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_0T4S0NYbEeywDZ2kNv9Wlw" type="3010" element="_0TeDINYbEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_0T4S0dYbEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_0T4S0tYbEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="__7fPINYbEeywDZ2kNv9Wlw" type="3010" element="__7WFMNYbEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="__7fPIdYbEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="__7fPItYbEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_D8gNgNYcEeywDZ2kNv9Wlw" type="3010" element="_D8YRsNYcEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_D8gNgdYcEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_D8gNgtYcEeywDZ2kNv9Wlw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_lamKYtYbEeywDZ2kNv9Wlw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_lamKY9YbEeywDZ2kNv9Wlw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_laljUdYbEeywDZ2kNv9Wlw" fontColor="16777215" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_laljUtYbEeywDZ2kNv9Wlw" x="442" y="346" width="147" height="87"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_j-2IoNYcEeywDZ2kNv9Wlw" type="2003" element="_j-VLQNYcEeywDZ2kNv9Wlw">
+          <children xmi:type="notation:Node" xmi:id="_j-3WwNYcEeywDZ2kNv9Wlw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_j-3WwdYcEeywDZ2kNv9Wlw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_lSdFkNYcEeywDZ2kNv9Wlw" type="3010" element="_lSPqMNYcEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_lSdFkdYcEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_lSdFktYcEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_nJVusNYcEeywDZ2kNv9Wlw" type="3010" element="_nJF3ENYcEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_nJVusdYcEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_nJVustYcEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_oa6rUNYcEeywDZ2kNv9Wlw" type="3010" element="_oamiQNYcEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_oa6rUdYcEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_oa6rUtYcEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_q3BhYNYcEeywDZ2kNv9Wlw" type="3010" element="_q27awNYcEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_q3BhYdYcEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_q3BhYtYcEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_uwiwoNYcEeywDZ2kNv9Wlw" type="3010" element="_uwa00NYcEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_uwiwodYcEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_uwiwotYcEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_fPFjANYeEeywDZ2kNv9Wlw" visible="false" type="3010" element="_fPAqhdYeEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_fPFjAdYeEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_fPFjAtYeEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_fPGKENYeEeywDZ2kNv9Wlw" visible="false" type="3010" element="_fPBRkdYeEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_fPGKEdYeEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_fPGKEtYeEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Xl_qsNYeEeywDZ2kNv9Wlw" visible="false" type="3010" element="_Xl49BdYeEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_Xl_qsdYeEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Xl_qstYeEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XmA40NYeEeywDZ2kNv9Wlw" visible="false" type="3010" element="_Xl49B9YeEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_XmA40dYeEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XmA40tYeEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XmBf4NYeEeywDZ2kNv9Wlw" visible="false" type="3010" element="_Xl5kEdYeEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_XmBf4dYeEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XmBf4tYeEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_XmBf49YeEeywDZ2kNv9Wlw" visible="false" type="3010" element="_Xl5kE9YeEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_XmBf5NYeEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_XmBf5dYeEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_UMcU8NYeEeywDZ2kNv9Wlw" visible="false" type="3010" element="_UMWOVNYeEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_UMcU8dYeEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_UMcU8tYeEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_UMdjENYeEeywDZ2kNv9Wlw" visible="false" type="3010" element="_UMXccNYeEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_UMdjEdYeEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_UMdjEtYeEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_UMeKINYeEeywDZ2kNv9Wlw" visible="false" type="3010" element="_UMXcctYeEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_UMeKIdYeEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_UMeKItYeEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_zstIoNYcEeywDZ2kNv9Wlw" type="3010" element="_zshicNYcEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_zstIodYcEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_zstIotYcEeywDZ2kNv9Wlw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_j-3WwtYcEeywDZ2kNv9Wlw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_j-3Ww9YcEeywDZ2kNv9Wlw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_j-2IodYcEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="15" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j-2IotYcEeywDZ2kNv9Wlw" x="56" y="128"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_4Y1gkNYcEeywDZ2kNv9Wlw" type="2003" element="_4YeUMNYcEeywDZ2kNv9Wlw">
+          <children xmi:type="notation:Node" xmi:id="_4Y2HoNYcEeywDZ2kNv9Wlw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_4Y2usNYcEeywDZ2kNv9Wlw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_LrYvUNYdEeywDZ2kNv9Wlw" type="3010" element="_LrLT8NYdEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_LrYvUdYdEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_LrYvUtYdEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_M685wNYdEeywDZ2kNv9Wlw" type="3010" element="_M6wFcNYdEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_M685wdYdEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_M685wtYdEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_OMVpINYdEeywDZ2kNv9Wlw" type="3010" element="_OMDVQNYdEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_OMVpIdYdEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_OMVpItYdEeywDZ2kNv9Wlw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_4Y2usdYcEeywDZ2kNv9Wlw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_4Y2ustYcEeywDZ2kNv9Wlw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_4Y1gkdYcEeywDZ2kNv9Wlw" fontColor="16777215" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4Y1gktYcEeywDZ2kNv9Wlw" x="472" y="44" width="183" height="87"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_cX7lINYdEeywDZ2kNv9Wlw" type="2003" element="_cXxNENYdEeywDZ2kNv9Wlw">
+          <children xmi:type="notation:Node" xmi:id="_cX8zQNYdEeywDZ2kNv9Wlw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_cX8zQdYdEeywDZ2kNv9Wlw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_vmivENYdEeywDZ2kNv9Wlw" type="3010" element="_vl-HUNYdEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_vmivEdYdEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vmivEtYdEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_9MLeUNYdEeywDZ2kNv9Wlw" type="3010" element="_9L8NwNYdEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_9MLeUdYdEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_9MLeUtYdEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_GMfBMNYeEeywDZ2kNv9Wlw" type="3010" element="_GMQXsNYeEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_GMfBMdYeEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_GMfBMtYeEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_JkoowNYeEeywDZ2kNv9Wlw" type="3010" element="_JkdpoNYeEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_JkoowdYeEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_JkoowtYeEeywDZ2kNv9Wlw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_cX8zQtYdEeywDZ2kNv9Wlw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_cX8zQ9YdEeywDZ2kNv9Wlw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_cX7lIdYdEeywDZ2kNv9Wlw" fontColor="16777215" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cX7lItYdEeywDZ2kNv9Wlw" x="372" y="143" width="323" height="99"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_MnKloNYeEeywDZ2kNv9Wlw" type="2003" element="_Mmi6kNYeEeywDZ2kNv9Wlw">
+          <children xmi:type="notation:Node" xmi:id="_MnLMsNYeEeywDZ2kNv9Wlw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_MnLMsdYeEeywDZ2kNv9Wlw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_O44JkNYeEeywDZ2kNv9Wlw" type="3010" element="_O4r8UNYeEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_O44JkdYeEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_O44JktYeEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_SL5ZgNYeEeywDZ2kNv9Wlw" type="3010" element="_SLtzUNYeEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_SL5ZgdYeEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_SL5ZgtYeEeywDZ2kNv9Wlw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_MnLMstYeEeywDZ2kNv9Wlw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_MnLMs9YeEeywDZ2kNv9Wlw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_MnKlodYeEeywDZ2kNv9Wlw" fontColor="16777215" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MnKlotYeEeywDZ2kNv9Wlw" x="424" y="262" width="199" height="67"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_kczvoNYfEeywDZ2kNv9Wlw" type="2003" element="_kcSyQNYfEeywDZ2kNv9Wlw">
+          <children xmi:type="notation:Node" xmi:id="_kc1k0NYfEeywDZ2kNv9Wlw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_kc1k0dYfEeywDZ2kNv9Wlw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_qP6WsNYfEeywDZ2kNv9Wlw" type="3010" element="_qPsUQNYfEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_qP6WsdYfEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_qP6WstYfEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_3aF5ANYfEeywDZ2kNv9Wlw" type="3010" element="_3Z7g8NYfEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_3aF5AdYfEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_3aF5AtYfEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_q6GGsNYgEeywDZ2kNv9Wlw" visible="false" type="3010" element="_q5-x9NYgEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_q6GGsdYgEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_q6GGstYgEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_j3Y48NYgEeywDZ2kNv9Wlw" visible="false" type="3010" element="_j3UAdNYgEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_j3Y48dYgEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_j3Y48tYgEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_X2aaYNYgEeywDZ2kNv9Wlw" visible="false" type="3010" element="_X2U63dYgEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_X2aaYdYgEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_X2aaYtYgEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_6UUOcNYfEeywDZ2kNv9Wlw" visible="false" type="3010" element="_6UAscNYfEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_6UUOcdYfEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_6UUOctYfEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_9Rbf0NYfEeywDZ2kNv9Wlw" type="3010" element="_9RPSkNYfEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_9Rbf0dYfEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_9Rbf0tYfEeywDZ2kNv9Wlw"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_A-BGUNYgEeywDZ2kNv9Wlw" type="3010" element="_A9zq8NYgEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_A-BGUdYgEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_A-BGUtYgEeywDZ2kNv9Wlw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_kc1k0tYfEeywDZ2kNv9Wlw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_kc1k09YfEeywDZ2kNv9Wlw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_kczvodYfEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kczvotYfEeywDZ2kNv9Wlw" x="60" y="616"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_ERiskNYgEeywDZ2kNv9Wlw" type="2003" element="_ERMuUNYgEeywDZ2kNv9Wlw">
+          <children xmi:type="notation:Node" xmi:id="_ERisk9YgEeywDZ2kNv9Wlw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_ERjToNYgEeywDZ2kNv9Wlw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_FYqssNYgEeywDZ2kNv9Wlw" type="3010" element="_FYSSMNYgEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_FYqssdYgEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_FYqsstYgEeywDZ2kNv9Wlw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_ERjTodYgEeywDZ2kNv9Wlw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_ERjTotYgEeywDZ2kNv9Wlw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_ERiskdYgEeywDZ2kNv9Wlw" fontColor="16777215" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ERisktYgEeywDZ2kNv9Wlw" x="416" y="460" width="175"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Hhh2oNYgEeywDZ2kNv9Wlw" type="2003" element="_HhT0MNYgEeywDZ2kNv9Wlw">
+          <children xmi:type="notation:Node" xmi:id="_Hhh2o9YgEeywDZ2kNv9Wlw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_Hhh2pNYgEeywDZ2kNv9Wlw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_JsQo0NYgEeywDZ2kNv9Wlw" type="3010" element="_JsB_UNYgEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_JsQo0dYgEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_JsQo0tYgEeywDZ2kNv9Wlw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Hhh2pdYgEeywDZ2kNv9Wlw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Hhh2ptYgEeywDZ2kNv9Wlw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Hhh2odYgEeywDZ2kNv9Wlw" fontColor="16777215" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hhh2otYgEeywDZ2kNv9Wlw" x="424" y="528" width="155"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_MZcAwNYgEeywDZ2kNv9Wlw" type="2003" element="_MZMwMNYgEeywDZ2kNv9Wlw">
+          <children xmi:type="notation:Node" xmi:id="_MZcn0NYgEeywDZ2kNv9Wlw" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_MZcn0dYgEeywDZ2kNv9Wlw" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_Nai4cNYgEeywDZ2kNv9Wlw" type="3010" element="_NaWrMNYgEeywDZ2kNv9Wlw">
+              <styles xmi:type="notation:FontStyle" xmi:id="_Nai4cdYgEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Nai4ctYgEeywDZ2kNv9Wlw"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_MZcn0tYgEeywDZ2kNv9Wlw"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_MZcn09YgEeywDZ2kNv9Wlw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_MZcAwdYgEeywDZ2kNv9Wlw" fontColor="16777215" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MZcAwtYgEeywDZ2kNv9Wlw" x="383" y="584" width="242"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_-euP4dVPEeyv38WTMQp9jw"/>
+        <edges xmi:type="notation:Edge" xmi:id="_KG7IYNYcEeywDZ2kNv9Wlw" type="4001" element="_KGtF8NYcEeywDZ2kNv9Wlw" source="_T1YnMNYbEeywDZ2kNv9Wlw" target="_laljUNYbEeywDZ2kNv9Wlw">
+          <children xmi:type="notation:Node" xmi:id="_KG7IZNYcEeywDZ2kNv9Wlw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KG7IZdYcEeywDZ2kNv9Wlw" x="1" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_KG7vcNYcEeywDZ2kNv9Wlw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KG7vcdYcEeywDZ2kNv9Wlw" x="-6" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_KG7vctYcEeywDZ2kNv9Wlw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KG7vc9YcEeywDZ2kNv9Wlw" x="-11" y="7"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_KG7IYdYcEeywDZ2kNv9Wlw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_KG7IYtYcEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KG7IY9YcEeywDZ2kNv9Wlw" points="[0, 0, -211, 5]$[211, -5, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KG7vdNYcEeywDZ2kNv9Wlw" id="(1.0,0.5034965034965035)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KG7vddYcEeywDZ2kNv9Wlw" id="(0.0,0.3764705882352941)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_UMfYQNYeEeywDZ2kNv9Wlw" type="4001" element="_UL4UQNYeEeywDZ2kNv9Wlw" source="_j-2IoNYcEeywDZ2kNv9Wlw" target="_4Y1gkNYcEeywDZ2kNv9Wlw">
+          <children xmi:type="notation:Node" xmi:id="_UMgmYNYeEeywDZ2kNv9Wlw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UMgmYdYeEeywDZ2kNv9Wlw" y="-15"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_UMgmYtYeEeywDZ2kNv9Wlw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UMgmY9YeEeywDZ2kNv9Wlw" y="4"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_UMgmZNYeEeywDZ2kNv9Wlw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UMgmZdYeEeywDZ2kNv9Wlw" x="1" y="4"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_UMfYQdYeEeywDZ2kNv9Wlw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_UMfYQtYeEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UMfYQ9YeEeywDZ2kNv9Wlw" points="[0, 0, -242, 65]$[241, -65, -1, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UMgmZtYeEeywDZ2kNv9Wlw" id="(1.0,0.12598425196850394)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UMgmZ9YeEeywDZ2kNv9Wlw" id="(0.0055248618784530384,0.4117647058823529)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_XmCG8NYeEeywDZ2kNv9Wlw" type="4001" element="_XlrhoNYeEeywDZ2kNv9Wlw" source="_j-2IoNYcEeywDZ2kNv9Wlw" target="_cX7lINYdEeywDZ2kNv9Wlw">
+          <children xmi:type="notation:Node" xmi:id="_XmCuANYeEeywDZ2kNv9Wlw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XmCuAdYeEeywDZ2kNv9Wlw" x="8" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XmCuAtYeEeywDZ2kNv9Wlw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XmCuA9YeEeywDZ2kNv9Wlw" x="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_XmCuBNYeEeywDZ2kNv9Wlw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XmCuBdYeEeywDZ2kNv9Wlw" x="-11" y="1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_XmCG8dYeEeywDZ2kNv9Wlw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_XmCG8tYeEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XmCG89YeEeywDZ2kNv9Wlw" points="[4, 0, -143, -5]$[145, 4, -2, -1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XmCuBtYeEeywDZ2kNv9Wlw" id="(0.980327868852459,0.4280442804428044)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XmCuB9YeEeywDZ2kNv9Wlw" id="(0.006230529595015576,0.4536082474226804)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_fPHYMNYeEeywDZ2kNv9Wlw" type="4001" element="_fO25gNYeEeywDZ2kNv9Wlw" source="_j-2IoNYcEeywDZ2kNv9Wlw" target="_MnKloNYeEeywDZ2kNv9Wlw">
+          <children xmi:type="notation:Node" xmi:id="_fPH_QNYeEeywDZ2kNv9Wlw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fPH_QdYeEeywDZ2kNv9Wlw" x="6" y="-8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fPH_QtYeEeywDZ2kNv9Wlw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fPH_Q9YeEeywDZ2kNv9Wlw" x="-8" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_fPH_RNYeEeywDZ2kNv9Wlw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fPH_RdYeEeywDZ2kNv9Wlw" x="-9" y="5"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_fPHYMdYeEeywDZ2kNv9Wlw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_fPHYMtYeEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fPHYM9YeEeywDZ2kNv9Wlw" points="[3, 0, -193, -65]$[196, 65, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fPH_RtYeEeywDZ2kNv9Wlw" id="(0.983606557377049,0.7011070110701108)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fPH_R9YeEeywDZ2kNv9Wlw" id="(0.0,0.3076923076923077)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_X2bogNYgEeywDZ2kNv9Wlw" type="4001" element="_X2J7stYgEeywDZ2kNv9Wlw" source="_kczvoNYfEeywDZ2kNv9Wlw" target="_ERiskNYgEeywDZ2kNv9Wlw">
+          <children xmi:type="notation:Node" xmi:id="_X2bohNYgEeywDZ2kNv9Wlw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_X2bohdYgEeywDZ2kNv9Wlw" x="4" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_X2cPkNYgEeywDZ2kNv9Wlw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_X2cPkdYgEeywDZ2kNv9Wlw" x="-6" y="4"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_X2cPktYgEeywDZ2kNv9Wlw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_X2cPk9YgEeywDZ2kNv9Wlw" x="-6" y="6"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_X2bogdYgEeywDZ2kNv9Wlw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_X2bogtYgEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_X2bog9YgEeywDZ2kNv9Wlw" points="[0, 0, -191, 150]$[181, -143, -10, 7]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X2c2oNYgEeywDZ2kNv9Wlw" id="(1.0,0.11009174311926605)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X2c2odYgEeywDZ2kNv9Wlw" id="(0.057803468208092484,0.35555555555555557)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_j3ZgANYgEeywDZ2kNv9Wlw" type="4001" element="_j29bINYgEeywDZ2kNv9Wlw" source="_kczvoNYfEeywDZ2kNv9Wlw" target="_Hhh2oNYgEeywDZ2kNv9Wlw">
+          <children xmi:type="notation:Node" xmi:id="_j3aHENYgEeywDZ2kNv9Wlw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j3aHEdYgEeywDZ2kNv9Wlw" x="8" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_j3aHEtYgEeywDZ2kNv9Wlw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j3aHE9YgEeywDZ2kNv9Wlw" x="-11" y="4"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_j3aHFNYgEeywDZ2kNv9Wlw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j3aHFdYgEeywDZ2kNv9Wlw" x="-12" y="6"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_j3ZgAdYgEeywDZ2kNv9Wlw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_j3ZgAtYgEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_j3ZgA9YgEeywDZ2kNv9Wlw" points="[0, 0, -189, 111]$[189, -111, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_j3aHFtYgEeywDZ2kNv9Wlw" id="(1.0,0.41843971631205673)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_j3aHF9YgEeywDZ2kNv9Wlw" id="(0.0,0.3333333333333333)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_q6GtwNYgEeywDZ2kNv9Wlw" type="4001" element="_q5wIcNYgEeywDZ2kNv9Wlw" source="_kczvoNYfEeywDZ2kNv9Wlw" target="_MZcAwNYgEeywDZ2kNv9Wlw">
+          <children xmi:type="notation:Node" xmi:id="_q6GtxNYgEeywDZ2kNv9Wlw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q6GtxdYgEeywDZ2kNv9Wlw" x="9" y="-8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_q6HU0NYgEeywDZ2kNv9Wlw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q6HU0dYgEeywDZ2kNv9Wlw" x="-12" y="4"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_q6HU0tYgEeywDZ2kNv9Wlw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q6HU09YgEeywDZ2kNv9Wlw" x="-16" y="6"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_q6GtwdYgEeywDZ2kNv9Wlw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_q6GtwtYgEeywDZ2kNv9Wlw" fontName=".AppleSystemUIFont" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_q6Gtw9YgEeywDZ2kNv9Wlw" points="[3, -2, -148, 68]$[151, -70, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_q6HU1NYgEeywDZ2kNv9Wlw" id="(0.986046511627907,0.5871559633027523)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_q6HU1dYgEeywDZ2kNv9Wlw" id="(0.0,0.35555555555555557)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_-fH4gNVPEeyv38WTMQp9jw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_-fIfkNVPEeyv38WTMQp9jw"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_T1GTUNYbEeywDZ2kNv9Wlw" name="Target" outgoingEdges="_KGtF8NYcEeywDZ2kNv9Wlw">
+      <target xmi:type="robocode:AdvancedRobot" href="My.robocode#//@drawable.2"/>
+      <semanticElements xmi:type="robocode:AdvancedRobot" href="My.robocode#//@drawable.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_T1IIgNYbEeywDZ2kNv9Wlw" labelSize="15" borderSize="1" borderSizeComputationExpression="1" foregroundColor="204,242,166">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='AdvancedRobot']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='AdvancedRobot']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_W2NT4NYbEeywDZ2kNv9Wlw" name="bodyColor = Color.white">
+        <target xmi:type="robocode:Run" href="My.robocode#//@drawable.2/@run.0"/>
+        <semanticElements xmi:type="robocode:Run" href="My.robocode#//@drawable.2/@run.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_W2N68NYbEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node" color="204,242,166">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='AdvancedRobot']/@subNodeMappings[name='runActionAdvanced']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='AdvancedRobot']/@subNodeMappings[name='runActionAdvanced']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_aZo-YNYbEeywDZ2kNv9Wlw" name="gunColor = color.white">
+        <target xmi:type="robocode:Run" href="My.robocode#//@drawable.2/@run.1"/>
+        <semanticElements xmi:type="robocode:Run" href="My.robocode#//@drawable.2/@run.1"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_aZo-YdYbEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node" color="204,242,166">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='AdvancedRobot']/@subNodeMappings[name='runActionAdvanced']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='AdvancedRobot']/@subNodeMappings[name='runActionAdvanced']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_hs9bANYbEeywDZ2kNv9Wlw" name="radarColor = Color.white">
+        <target xmi:type="robocode:Run" href="My.robocode#//@drawable.2/@run.2"/>
+        <semanticElements xmi:type="robocode:Run" href="My.robocode#//@drawable.2/@run.2"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_hs9bAdYbEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node" color="204,242,166">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='AdvancedRobot']/@subNodeMappings[name='runActionAdvanced']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='AdvancedRobot']/@subNodeMappings[name='runActionAdvanced']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_HA5yoNYcEeywDZ2kNv9Wlw" name="trigger = 80">
+        <target xmi:type="robocode:Run" href="My.robocode#//@drawable.2/@run.3"/>
+        <semanticElements xmi:type="robocode:Run" href="My.robocode#//@drawable.2/@run.3"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_HA6ZsNYcEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node" color="204,242,166">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='AdvancedRobot']/@subNodeMappings[name='runActionAdvanced']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='AdvancedRobot']/@subNodeMappings[name='runActionAdvanced']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_KG2P5NYcEeywDZ2kNv9Wlw" name="trigger -= 20" visible="false">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.2/@customevent.0/@actionEvent.0"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.2/@customevent.0/@actionEvent.0"/>
+        <graphicalFilters xmi:type="diagram:HideFilter" uid="_0c22YdYgEeywDZ2kNv9Wlw"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_KG2P5dYcEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='AdvancedRobot']/@subNodeMappings[name='actionAdvanced']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='AdvancedRobot']/@subNodeMappings[name='actionAdvanced']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_KG228NYcEeywDZ2kNv9Wlw" name="turnLeft = 65" visible="false">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.2/@customevent.0/@actionEvent.1"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.2/@customevent.0/@actionEvent.1"/>
+        <graphicalFilters xmi:type="diagram:HideFilter" uid="_0cyk8NYgEeywDZ2kNv9Wlw"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_KG228dYcEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='AdvancedRobot']/@subNodeMappings[name='actionAdvanced']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='AdvancedRobot']/@subNodeMappings[name='actionAdvanced']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_KG3eANYcEeywDZ2kNv9Wlw" name="ahead = 100" visible="false">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.2/@customevent.0/@actionEvent.2"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.2/@customevent.0/@actionEvent.2"/>
+        <graphicalFilters xmi:type="diagram:HideFilter" uid="_0c22YNYgEeywDZ2kNv9Wlw"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_KG3eAdYcEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='AdvancedRobot']/@subNodeMappings[name='actionAdvanced']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='AdvancedRobot']/@subNodeMappings[name='actionAdvanced']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_laYvANYbEeywDZ2kNv9Wlw" name="Custom Event" incomingEdges="_KGtF8NYcEeywDZ2kNv9Wlw">
+      <target xmi:type="robocode:CustomEvent" href="My.robocode#//@drawable.2/@customevent.0"/>
+      <semanticElements xmi:type="robocode:CustomEvent" href="My.robocode#//@drawable.2/@customevent.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_laZWENYbEeywDZ2kNv9Wlw" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" backgroundColor="214,197,66">
+        <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='CustomEvent']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='CustomEvent']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_0TeDINYbEeywDZ2kNv9Wlw" name="trigger -= 20">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.2/@customevent.0/@actionEvent.0"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.2/@customevent.0/@actionEvent.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_0TeqMNYbEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='CustomEvent']/@subNodeMappings[name='actionCustomEvent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='CustomEvent']/@subNodeMappings[name='actionCustomEvent']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="__7WFMNYbEeywDZ2kNv9Wlw" name="turnLeft = 65">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.2/@customevent.0/@actionEvent.1"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.2/@customevent.0/@actionEvent.1"/>
+        <ownedStyle xmi:type="diagram:Square" uid="__7WsQNYbEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='CustomEvent']/@subNodeMappings[name='actionCustomEvent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='CustomEvent']/@subNodeMappings[name='actionCustomEvent']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_D8YRsNYcEeywDZ2kNv9Wlw" name="ahead = 100">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.2/@customevent.0/@actionEvent.2"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.2/@customevent.0/@actionEvent.2"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_D8YRsdYcEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='CustomEvent']/@subNodeMappings[name='actionCustomEvent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='CustomEvent']/@subNodeMappings[name='actionCustomEvent']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_KGtF8NYcEeywDZ2kNv9Wlw" sourceNode="_T1GTUNYbEeywDZ2kNv9Wlw" targetNode="_laYvANYbEeywDZ2kNv9Wlw">
+      <target xmi:type="robocode:AdvancedRobot" href="My.robocode#//@drawable.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_KGuUENYcEeywDZ2kNv9Wlw" size="2" strokeColor="255,255,255">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@edgeMappings[name='robotToCustomEvent']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_KGuUEdYcEeywDZ2kNv9Wlw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@edgeMappings[name='robotToCustomEvent']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_j-VLQNYcEeywDZ2kNv9Wlw" name="Fire" outgoingEdges="_UL4UQNYeEeywDZ2kNv9Wlw _XlrhoNYeEeywDZ2kNv9Wlw _fO25gNYeEeywDZ2kNv9Wlw">
+      <target xmi:type="robocode:Robot" href="My.robocode#//@drawable.3"/>
+      <semanticElements xmi:type="robocode:Robot" href="My.robocode#//@drawable.3"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_j-Y1oNYcEeywDZ2kNv9Wlw" labelSize="15" borderSize="1" borderSizeComputationExpression="1" foregroundColor="194,239,255">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_lSPqMNYcEeywDZ2kNv9Wlw" name="bodyColor = Color.orange">
+        <target xmi:type="robocode:Run" href="My.robocode#//@drawable.3/@run.0"/>
+        <semanticElements xmi:type="robocode:Run" href="My.robocode#//@drawable.3/@run.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_lSPqMdYcEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node" color="204,242,166">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='runAction']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='runAction']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_nJF3ENYcEeywDZ2kNv9Wlw" name="gunColor = Color.orange">
+        <target xmi:type="robocode:Run" href="My.robocode#//@drawable.3/@run.1"/>
+        <semanticElements xmi:type="robocode:Run" href="My.robocode#//@drawable.3/@run.1"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_nJHFMNYcEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node" color="204,242,166">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='runAction']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='runAction']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_oamiQNYcEeywDZ2kNv9Wlw" name="radarColor = Color.red">
+        <target xmi:type="robocode:Run" href="My.robocode#//@drawable.3/@run.2"/>
+        <semanticElements xmi:type="robocode:Run" href="My.robocode#//@drawable.3/@run.2"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_oamiQdYcEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node" color="204,242,166">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='runAction']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='runAction']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_q27awNYcEeywDZ2kNv9Wlw" name="scanColor = Color.red">
+        <target xmi:type="robocode:Run" href="My.robocode#//@drawable.3/@run.3"/>
+        <semanticElements xmi:type="robocode:Run" href="My.robocode#//@drawable.3/@run.3"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_q27awdYcEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node" color="204,242,166">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='runAction']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='runAction']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_uwa00NYcEeywDZ2kNv9Wlw" name="bulletColor = Color.red">
+        <target xmi:type="robocode:Run" href="My.robocode#//@drawable.3/@run.4"/>
+        <semanticElements xmi:type="robocode:Run" href="My.robocode#//@drawable.3/@run.4"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_uwa00dYcEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node" color="204,242,166">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='runAction']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='runAction']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_fPAqhdYeEeywDZ2kNv9Wlw" name="turnGunRight = turnGunAmt" visible="false">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@hitrobotevent/@actionEvent.0"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@hitrobotevent/@actionEvent.0"/>
+        <graphicalFilters xmi:type="diagram:HideFilter" uid="_5RXuQ9YgEeywDZ2kNv9Wlw"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_fPBRkNYeEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='action']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='action']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_fPBRkdYeEeywDZ2kNv9Wlw" name="fire = 3" visible="false">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@hitrobotevent/@actionEvent.1"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@hitrobotevent/@actionEvent.1"/>
+        <graphicalFilters xmi:type="diagram:HideFilter" uid="_5RXuQdYgEeywDZ2kNv9Wlw"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_fPB4oNYeEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='action']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='action']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_Xl49BdYeEeywDZ2kNv9Wlw" name="dist = 50" visible="false">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@hitbybulletevent/@actionEvent.0"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@hitbybulletevent/@actionEvent.0"/>
+        <graphicalFilters xmi:type="diagram:HideFilter" uid="_5RXuR9YgEeywDZ2kNv9Wlw"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_Xl49BtYeEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='action']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='action']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_Xl49B9YeEeywDZ2kNv9Wlw" name="turnRight = 90 - (getHeading() - e.getHeading())" visible="false">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@hitbybulletevent/@actionEvent.1"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@hitbybulletevent/@actionEvent.1"/>
+        <graphicalFilters xmi:type="diagram:HideFilter" uid="_5RXuRdYgEeywDZ2kNv9Wlw"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_Xl5kENYeEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='action']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='action']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_Xl5kEdYeEeywDZ2kNv9Wlw" name="ahead = dist" visible="false">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@hitbybulletevent/@actionEvent.2"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@hitbybulletevent/@actionEvent.2"/>
+        <graphicalFilters xmi:type="diagram:HideFilter" uid="_5RXuQtYgEeywDZ2kNv9Wlw"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_Xl5kEtYeEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='action']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='action']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_Xl5kE9YeEeywDZ2kNv9Wlw" name="scan()" visible="false">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@hitbybulletevent/@actionEvent.3"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@hitbybulletevent/@actionEvent.3"/>
+        <graphicalFilters xmi:type="diagram:HideFilter" uid="_5RXuRNYgEeywDZ2kNv9Wlw"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_Xl5kFNYeEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='action']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='action']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_UMWOVNYeEeywDZ2kNv9Wlw" name="fire = 3" visible="false">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@scannedrobotevent/@actionEvent.0"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@scannedrobotevent/@actionEvent.0"/>
+        <graphicalFilters xmi:type="diagram:HideFilter" uid="_5RXuQNYgEeywDZ2kNv9Wlw"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_UMWOVdYeEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='action']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='action']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_UMXccNYeEeywDZ2kNv9Wlw" name="fire = 1" visible="false">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@scannedrobotevent/@actionEvent.1"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@scannedrobotevent/@actionEvent.1"/>
+        <graphicalFilters xmi:type="diagram:HideFilter" uid="_5RXuSNYgEeywDZ2kNv9Wlw"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_UMXccdYeEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='action']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='action']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_UMXcctYeEeywDZ2kNv9Wlw" name="scan()" visible="false">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@scannedrobotevent/@actionEvent.2"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@scannedrobotevent/@actionEvent.2"/>
+        <graphicalFilters xmi:type="diagram:HideFilter" uid="_5RXuRtYgEeywDZ2kNv9Wlw"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_UMXcc9YeEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='action']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='action']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_zshicNYcEeywDZ2kNv9Wlw" name="turnRight = 5">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@action.0"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@action.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_zshicdYcEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='action']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='action']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_4YeUMNYcEeywDZ2kNv9Wlw" name="Scanned Robot Event" incomingEdges="_UL4UQNYeEeywDZ2kNv9Wlw">
+      <target xmi:type="robocode:ScannedRobotEvent" href="My.robocode#//@drawable.3/@scannedrobotevent"/>
+      <semanticElements xmi:type="robocode:ScannedRobotEvent" href="My.robocode#//@drawable.3/@scannedrobotevent"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_4YeUMdYcEeywDZ2kNv9Wlw" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" backgroundColor="114,73,110">
+        <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='ScannedRobotEvent']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='ScannedRobotEvent']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_LrLT8NYdEeywDZ2kNv9Wlw" name="fire = 3">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@scannedrobotevent/@actionEvent.0"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@scannedrobotevent/@actionEvent.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_LrMiENYdEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='ScannedRobotEvent']/@subNodeMappings[name='actionScannedEvent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='ScannedRobotEvent']/@subNodeMappings[name='actionScannedEvent']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_M6wFcNYdEeywDZ2kNv9Wlw" name="fire = 1">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@scannedrobotevent/@actionEvent.1"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@scannedrobotevent/@actionEvent.1"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_M6wFcdYdEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='ScannedRobotEvent']/@subNodeMappings[name='actionScannedEvent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='ScannedRobotEvent']/@subNodeMappings[name='actionScannedEvent']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_OMDVQNYdEeywDZ2kNv9Wlw" name="scan()">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@scannedrobotevent/@actionEvent.2"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@scannedrobotevent/@actionEvent.2"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_OMGYkNYdEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='ScannedRobotEvent']/@subNodeMappings[name='actionScannedEvent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='ScannedRobotEvent']/@subNodeMappings[name='actionScannedEvent']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_cXxNENYdEeywDZ2kNv9Wlw" name="Hit By Bullet Event" incomingEdges="_XlrhoNYeEeywDZ2kNv9Wlw">
+      <target xmi:type="robocode:HitByBulletEvent" href="My.robocode#//@drawable.3/@hitbybulletevent"/>
+      <semanticElements xmi:type="robocode:HitByBulletEvent" href="My.robocode#//@drawable.3/@hitbybulletevent"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_cXxNEdYdEeywDZ2kNv9Wlw" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" borderLineStyle="dot" backgroundColor="156,12,12">
+        <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitByBulletEvent']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitByBulletEvent']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_vl-HUNYdEeywDZ2kNv9Wlw" name="dist = 50">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@hitbybulletevent/@actionEvent.0"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@hitbybulletevent/@actionEvent.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_vmCYwNYdEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitByBulletEvent']/@subNodeMappings[name='actionHitEvent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitByBulletEvent']/@subNodeMappings[name='actionHitEvent']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_9L8NwNYdEeywDZ2kNv9Wlw" name="turnRight = 90 - (getHeading() - e.getHeading())">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@hitbybulletevent/@actionEvent.1"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@hitbybulletevent/@actionEvent.1"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_9L-C8NYdEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitByBulletEvent']/@subNodeMappings[name='actionHitEvent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitByBulletEvent']/@subNodeMappings[name='actionHitEvent']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_GMQXsNYeEeywDZ2kNv9Wlw" name="ahead = dist">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@hitbybulletevent/@actionEvent.2"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@hitbybulletevent/@actionEvent.2"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_GMRl0NYeEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitByBulletEvent']/@subNodeMappings[name='actionHitEvent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitByBulletEvent']/@subNodeMappings[name='actionHitEvent']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_JkdpoNYeEeywDZ2kNv9Wlw" name="scan()">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@hitbybulletevent/@actionEvent.3"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@hitbybulletevent/@actionEvent.3"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_JkdpodYeEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitByBulletEvent']/@subNodeMappings[name='actionHitEvent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitByBulletEvent']/@subNodeMappings[name='actionHitEvent']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_Mmi6kNYeEeywDZ2kNv9Wlw" name="Hit Robot Event" incomingEdges="_fO25gNYeEeywDZ2kNv9Wlw">
+      <target xmi:type="robocode:HitRobotEvent" href="My.robocode#//@drawable.3/@hitrobotevent"/>
+      <semanticElements xmi:type="robocode:HitRobotEvent" href="My.robocode#//@drawable.3/@hitrobotevent"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_Mmmk8NYeEeywDZ2kNv9Wlw" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" borderLineStyle="dot" backgroundColor="39,76,114">
+        <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitRobotEvent']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitRobotEvent']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_O4r8UNYeEeywDZ2kNv9Wlw" name="turnGunRight = turnGunAmt">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@hitrobotevent/@actionEvent.0"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@hitrobotevent/@actionEvent.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_O4sjYNYeEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitRobotEvent']/@subNodeMappings[name='actionHitRobotEvent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitRobotEvent']/@subNodeMappings[name='actionHitRobotEvent']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_SLtzUNYeEeywDZ2kNv9Wlw" name="fire = 3">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@hitrobotevent/@actionEvent.1"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.3/@hitrobotevent/@actionEvent.1"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_SLuaYNYeEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitRobotEvent']/@subNodeMappings[name='actionHitRobotEvent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitRobotEvent']/@subNodeMappings[name='actionHitRobotEvent']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_UL4UQNYeEeywDZ2kNv9Wlw" sourceNode="_j-VLQNYcEeywDZ2kNv9Wlw" targetNode="_4YeUMNYcEeywDZ2kNv9Wlw">
+      <target xmi:type="robocode:Robot" href="My.robocode#//@drawable.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_UL7-oNYeEeywDZ2kNv9Wlw" size="2" strokeColor="255,255,255">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@edgeMappings[name='robotToScannedRobotEvent']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_UL8lsNYeEeywDZ2kNv9Wlw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@edgeMappings[name='robotToScannedRobotEvent']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_XlrhoNYeEeywDZ2kNv9Wlw" sourceNode="_j-VLQNYcEeywDZ2kNv9Wlw" targetNode="_cXxNENYdEeywDZ2kNv9Wlw">
+      <target xmi:type="robocode:Robot" href="My.robocode#//@drawable.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_XlrhodYeEeywDZ2kNv9Wlw" size="2" strokeColor="255,255,255">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@edgeMappings[name='robotToHitByBulletEvent']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_XlrhotYeEeywDZ2kNv9Wlw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@edgeMappings[name='robotToHitByBulletEvent']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_fO25gNYeEeywDZ2kNv9Wlw" sourceNode="_j-VLQNYcEeywDZ2kNv9Wlw" targetNode="_Mmi6kNYeEeywDZ2kNv9Wlw">
+      <target xmi:type="robocode:Robot" href="My.robocode#//@drawable.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_fO25gdYeEeywDZ2kNv9Wlw" size="2" strokeColor="255,255,255">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@edgeMappings[name='robotToHitRobotEvent']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_fO25gtYeEeywDZ2kNv9Wlw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@edgeMappings[name='robotToHitRobotEvent']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_kcSyQNYfEeywDZ2kNv9Wlw" name="VelociRobot" outgoingEdges="_X2J7stYgEeywDZ2kNv9Wlw _j29bINYgEeywDZ2kNv9Wlw _q5wIcNYgEeywDZ2kNv9Wlw">
+      <target xmi:type="robocode:RangeControlRobot" href="My.robocode#//@drawable.4"/>
+      <semanticElements xmi:type="robocode:RangeControlRobot" href="My.robocode#//@drawable.4"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_kcXDsNYfEeywDZ2kNv9Wlw" labelSize="12" borderSize="1" borderSizeComputationExpression="1" foregroundColor="253,206,137">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='RangeControlRobot']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='RangeControlRobot']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_qPsUQNYfEeywDZ2kNv9Wlw" name="turnCounter = 0">
+        <target xmi:type="robocode:Run" href="My.robocode#//@drawable.4/@run.0"/>
+        <semanticElements xmi:type="robocode:Run" href="My.robocode#//@drawable.4/@run.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_qPs7UNYfEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node" color="194,239,255">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='RangeControlRobot']/@subNodeMappings[name='runActionRanged']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='RangeControlRobot']/@subNodeMappings[name='runActionRanged']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_3Z7g8NYfEeywDZ2kNv9Wlw" name="gunTurnRotationRate = 15">
+        <target xmi:type="robocode:Run" href="My.robocode#//@drawable.4/@run.1"/>
+        <semanticElements xmi:type="robocode:Run" href="My.robocode#//@drawable.4/@run.1"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_3Z7g8dYfEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node" color="194,239,255">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='RangeControlRobot']/@subNodeMappings[name='runActionRanged']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='RangeControlRobot']/@subNodeMappings[name='runActionRanged']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_q5-x9NYgEeywDZ2kNv9Wlw" name="velocityRate = (-1 * velocityRate)" visible="false">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.4/@hitwallevent/@actionEvent.0"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.4/@hitwallevent/@actionEvent.0"/>
+        <graphicalFilters xmi:type="diagram:HideFilter" uid="_v_J8ANYgEeywDZ2kNv9Wlw"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_q5_ZANYgEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='RangeControlRobot']/@subNodeMappings[name='actionRanged']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='RangeControlRobot']/@subNodeMappings[name='actionRanged']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_j3UAdNYgEeywDZ2kNv9Wlw" name="turnRate = 5" visible="false">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.4/@hitbybulletevent/@actionEvent.0"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.4/@hitbybulletevent/@actionEvent.0"/>
+        <graphicalFilters xmi:type="diagram:HideFilter" uid="_oluQUNYgEeywDZ2kNv9Wlw"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_j3UngNYgEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='RangeControlRobot']/@subNodeMappings[name='actionRanged']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='RangeControlRobot']/@subNodeMappings[name='actionRanged']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_X2U63dYgEeywDZ2kNv9Wlw" name="fire = 1" visible="false">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.4/@scannedrobotevent/@actionEvent.0"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.4/@scannedrobotevent/@actionEvent.0"/>
+        <graphicalFilters xmi:type="diagram:HideFilter" uid="_oltCMNYgEeywDZ2kNv9Wlw"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_X2U63tYgEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='RangeControlRobot']/@subNodeMappings[name='actionRanged']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='RangeControlRobot']/@subNodeMappings[name='actionRanged']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_6UAscNYfEeywDZ2kNv9Wlw" name="turnRate = 0" visible="false">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.4/@action.0"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.4/@action.0"/>
+        <graphicalFilters xmi:type="diagram:HideFilter" uid="_oluQUdYgEeywDZ2kNv9Wlw"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_6UChoNYfEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='RangeControlRobot']/@subNodeMappings[name='actionRanged']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='RangeControlRobot']/@subNodeMappings[name='actionRanged']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_9RPSkNYfEeywDZ2kNv9Wlw" name="velocityRate = 4">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.4/@action.1"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.4/@action.1"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_9RP5oNYfEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='RangeControlRobot']/@subNodeMappings[name='actionRanged']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='RangeControlRobot']/@subNodeMappings[name='actionRanged']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_A9zq8NYgEeywDZ2kNv9Wlw" name="turnCounter++">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.4/@action.2"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.4/@action.2"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_A9zq8dYgEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='RangeControlRobot']/@subNodeMappings[name='actionRanged']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='RangeControlRobot']/@subNodeMappings[name='actionRanged']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_ERMuUNYgEeywDZ2kNv9Wlw" name="Scanned Robot Event" incomingEdges="_X2J7stYgEeywDZ2kNv9Wlw">
+      <target xmi:type="robocode:ScannedRobotEvent" href="My.robocode#//@drawable.4/@scannedrobotevent"/>
+      <semanticElements xmi:type="robocode:ScannedRobotEvent" href="My.robocode#//@drawable.4/@scannedrobotevent"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_ERMuUdYgEeywDZ2kNv9Wlw" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" backgroundColor="114,73,110">
+        <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='ScannedRobotEvent']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='ScannedRobotEvent']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_FYSSMNYgEeywDZ2kNv9Wlw" name="fire = 1">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.4/@scannedrobotevent/@actionEvent.0"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.4/@scannedrobotevent/@actionEvent.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_FYTgUNYgEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='ScannedRobotEvent']/@subNodeMappings[name='actionScannedEvent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='ScannedRobotEvent']/@subNodeMappings[name='actionScannedEvent']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_HhT0MNYgEeywDZ2kNv9Wlw" name="Hit By Bullet Event" incomingEdges="_j29bINYgEeywDZ2kNv9Wlw">
+      <target xmi:type="robocode:HitByBulletEvent" href="My.robocode#//@drawable.4/@hitbybulletevent"/>
+      <semanticElements xmi:type="robocode:HitByBulletEvent" href="My.robocode#//@drawable.4/@hitbybulletevent"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_HhUbQNYgEeywDZ2kNv9Wlw" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" borderLineStyle="dot" backgroundColor="156,12,12">
+        <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitByBulletEvent']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitByBulletEvent']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_JsB_UNYgEeywDZ2kNv9Wlw" name="turnRate = 5">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.4/@hitbybulletevent/@actionEvent.0"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.4/@hitbybulletevent/@actionEvent.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_JsB_UdYgEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitByBulletEvent']/@subNodeMappings[name='actionHitEvent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitByBulletEvent']/@subNodeMappings[name='actionHitEvent']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_MZMwMNYgEeywDZ2kNv9Wlw" name="Hit Wall Event" incomingEdges="_q5wIcNYgEeywDZ2kNv9Wlw">
+      <target xmi:type="robocode:HitWallEvent" href="My.robocode#//@drawable.4/@hitwallevent"/>
+      <semanticElements xmi:type="robocode:HitWallEvent" href="My.robocode#//@drawable.4/@hitwallevent"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:ShapeContainerStyle" uid="_MZNXQNYgEeywDZ2kNv9Wlw" labelSize="12" labelColor="255,255,255" borderSize="1" borderSizeComputationExpression="1" borderLineStyle="dot" backgroundColor="224,133,3">
+        <description xmi:type="style:ShapeContainerStyleDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitWallEvent']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitWallEvent']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="_NaWrMNYgEeywDZ2kNv9Wlw" name="velocityRate = (-1 * velocityRate)">
+        <target xmi:type="robocode:Action" href="My.robocode#//@drawable.4/@hitwallevent/@actionEvent.0"/>
+        <semanticElements xmi:type="robocode:Action" href="My.robocode#//@drawable.4/@hitwallevent/@actionEvent.0"/>
+        <ownedStyle xmi:type="diagram:Square" uid="_NaXSQNYgEeywDZ2kNv9Wlw" labelSize="12" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitWallEvent']/@subNodeMappings[name='actionWallEvent']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitWallEvent']/@subNodeMappings[name='actionWallEvent']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_X2J7stYgEeywDZ2kNv9Wlw" sourceNode="_kcSyQNYfEeywDZ2kNv9Wlw" targetNode="_ERMuUNYgEeywDZ2kNv9Wlw">
+      <target xmi:type="robocode:RangeControlRobot" href="My.robocode#//@drawable.4"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_X2LJ0NYgEeywDZ2kNv9Wlw" size="2" strokeColor="255,255,255">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@edgeMappings[name='robotToScannedRobotEvent']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_X2LJ0dYgEeywDZ2kNv9Wlw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@edgeMappings[name='robotToScannedRobotEvent']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_j29bINYgEeywDZ2kNv9Wlw" sourceNode="_kcSyQNYfEeywDZ2kNv9Wlw" targetNode="_HhT0MNYgEeywDZ2kNv9Wlw">
+      <target xmi:type="robocode:RangeControlRobot" href="My.robocode#//@drawable.4"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_j2-CMNYgEeywDZ2kNv9Wlw" size="2" strokeColor="255,255,255">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@edgeMappings[name='robotToHitByBulletEvent']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_j2-CMdYgEeywDZ2kNv9Wlw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@edgeMappings[name='robotToHitByBulletEvent']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_q5wIcNYgEeywDZ2kNv9Wlw" sourceNode="_kcSyQNYfEeywDZ2kNv9Wlw" targetNode="_MZMwMNYgEeywDZ2kNv9Wlw">
+      <target xmi:type="robocode:RangeControlRobot" href="My.robocode#//@drawable.4"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_q5xWkNYgEeywDZ2kNv9Wlw" size="2" strokeColor="255,255,255">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@edgeMappings[name='robotToHitWallEvent']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_q5xWkdYgEeywDZ2kNv9Wlw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@edgeMappings[name='robotToHitWallEvent']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_-eIaANVPEeyv38WTMQp9jw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/sirius.sample.robocode.design/description/robocode.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer"/>
+    <target xmi:type="robocode:Root" href="My.robocode#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

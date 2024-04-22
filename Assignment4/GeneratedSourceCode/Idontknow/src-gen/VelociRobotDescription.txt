@@ -1,0 +1,19 @@
+VelociRobot is a type of RangeControlRobot. 
+It is initialized by setting: 
+	GunRotationRate to 15
+	
+The behaviour is defined in the infinite loop by setting: 
+	TurnRate to 0   ->   on the Condition:  {  turnCounter%64 == 0  }
+	VelocityRate to 4   ->   on the Condition:  {  turnCounter%64 == 0  }
+	VelocityRate to -6   ->   on the Condition:  {  turnCounter%64 == 32  }
+	execute to 
+
+When the VelociRobot gets the ScannedRobot event, it will set/execute: 
+	fire to 1
+	
+When the VelociRobot gets the HitByBullet event, it will set/execute: 
+	TurnRate to 4
+	
+When the VelociRobot gets the HitWall event, it will set/execute: 
+	VelocityRate to "-1 * getVelocityRate()"
+	

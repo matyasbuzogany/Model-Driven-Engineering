@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/sirius.sample.robocode/src-gen" creationIcons="false"
+    editDirectory="/sirius.sample.robocode.edit/src-gen" editorDirectory="/sirius.sample.robocode.editor/src-gen"
+    modelPluginID="sirius.sample.robocode" modelName="Robocode" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    codeFormatting="true" importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0"
+    copyrightFields="false" operationReflection="true" importOrganizing="true">
+  <foreignModel>robocode.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="Robocode" basePackage="sirius.sample" disposableProviderFactory="true"
+      ecorePackage="robocode.ecore#/">
+    <genDataTypes ecoreDataType="robocode.ecore#//Color"/>
+    <genClasses ecoreClass="robocode.ecore#//Root">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference robocode.ecore#//Root/drawable"/>
+    </genClasses>
+    <genClasses ecoreClass="robocode.ecore#//Drawable">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference robocode.ecore#//Drawable/robot"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference robocode.ecore#//Drawable/event"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robocode.ecore#//Drawable/name"/>
+    </genClasses>
+    <genClasses ecoreClass="robocode.ecore#//Robot">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robocode.ecore#//Robot/bodyColor"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robocode.ecore#//Robot/gunColor"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robocode.ecore#//Robot/bulletColor"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robocode.ecore#//Robot/radarColor"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robocode.ecore#//Robot/scanColor"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference robocode.ecore#//Robot/hitwallevent"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference robocode.ecore#//Robot/hitrobotevent"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference robocode.ecore#//Robot/winevent"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference robocode.ecore#//Robot/hitbybulletevent"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference robocode.ecore#//Robot/deathevent"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference robocode.ecore#//Robot/scannedrobotevent"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference robocode.ecore#//Robot/run.1"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference robocode.ecore#//Robot/loop.1"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference robocode.ecore#//Robot/eventroot"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference robocode.ecore#//Robot/action"/>
+      <genOperations ecoreOperation="robocode.ecore#//Robot/run"/>
+      <genOperations ecoreOperation="robocode.ecore#//Robot/loop"/>
+      <genOperations ecoreOperation="robocode.ecore#//Robot/ahead">
+        <genParameters ecoreParameter="robocode.ecore#//Robot/ahead/value"/>
+      </genOperations>
+      <genOperations ecoreOperation="robocode.ecore#//Robot/back">
+        <genParameters ecoreParameter="robocode.ecore#//Robot/back/value"/>
+      </genOperations>
+      <genOperations ecoreOperation="robocode.ecore#//Robot/turnRight">
+        <genParameters ecoreParameter="robocode.ecore#//Robot/turnRight/value"/>
+      </genOperations>
+      <genOperations ecoreOperation="robocode.ecore#//Robot/turnLeft">
+        <genParameters ecoreParameter="robocode.ecore#//Robot/turnLeft/value"/>
+      </genOperations>
+      <genOperations ecoreOperation="robocode.ecore#//Robot/fire">
+        <genParameters ecoreParameter="robocode.ecore#//Robot/fire/value"/>
+      </genOperations>
+      <genOperations ecoreOperation="robocode.ecore#//Robot/scan"/>
+    </genClasses>
+    <genClasses ecoreClass="robocode.ecore#//AdvancedRobot">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference robocode.ecore#//AdvancedRobot/customevent"/>
+    </genClasses>
+    <genClasses ecoreClass="robocode.ecore#//RangeControlRobot">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robocode.ecore#//RangeControlRobot/velocityRate"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robocode.ecore#//RangeControlRobot/turnRate"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robocode.ecore#//RangeControlRobot/gunTurnRotationRate"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute robocode.ecore#//RangeControlRobot/radarRotationRate"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="robocode.ecore#//INormalEvent">
+      <genOperations ecoreOperation="robocode.ecore#//INormalEvent/onDeathEvent">
+        <genParameters ecoreParameter="robocode.ecore#//INormalEvent/onDeathEvent/event"/>
+      </genOperations>
+      <genOperations ecoreOperation="robocode.ecore#//INormalEvent/onHitRobotEvent">
+        <genParameters ecoreParameter="robocode.ecore#//INormalEvent/onHitRobotEvent/event"/>
+      </genOperations>
+      <genOperations ecoreOperation="robocode.ecore#//INormalEvent/onHitByBulletEvent">
+        <genParameters ecoreParameter="robocode.ecore#//INormalEvent/onHitByBulletEvent/event"/>
+      </genOperations>
+      <genOperations ecoreOperation="robocode.ecore#//INormalEvent/onHitWallEvent">
+        <genParameters ecoreParameter="robocode.ecore#//INormalEvent/onHitWallEvent/event"/>
+      </genOperations>
+      <genOperations ecoreOperation="robocode.ecore#//INormalEvent/onScannedRobotEvent">
+        <genParameters ecoreParameter="robocode.ecore#//INormalEvent/onScannedRobotEvent/event"/>
+      </genOperations>
+      <genOperations ecoreOperation="robocode.ecore#//INormalEvent/onWin">
+        <genParameters ecoreParameter="robocode.ecore#//INormalEvent/onWin/event"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="robocode.ecore#//EventRoot">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference robocode.ecore#//EventRoot/actionEvent"/>
+    </genClasses>
+    <genClasses ecoreClass="robocode.ecore#//DeathEvent"/>
+    <genClasses ecoreClass="robocode.ecore#//HitByBulletEvent"/>
+    <genClasses ecoreClass="robocode.ecore#//HitRobotEvent"/>
+    <genClasses ecoreClass="robocode.ecore#//HitWallEvent"/>
+    <genClasses ecoreClass="robocode.ecore#//ScannedRobotEvent"/>
+    <genClasses ecoreClass="robocode.ecore#//WinEvent"/>
+    <genClasses ecoreClass="robocode.ecore#//Run"/>
+    <genClasses ecoreClass="robocode.ecore#//Loop"/>
+    <genClasses ecoreClass="robocode.ecore#//CustomEvent"/>
+    <genClasses image="false" ecoreClass="robocode.ecore#//ICustomEvent">
+      <genOperations ecoreOperation="robocode.ecore#//ICustomEvent/onCustomEvent">
+        <genParameters ecoreParameter="robocode.ecore#//ICustomEvent/onCustomEvent/event"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="robocode.ecore#//Action"/>
+  </genPackages>
+</genmodel:GenModel>

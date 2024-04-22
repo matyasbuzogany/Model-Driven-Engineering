@@ -1,0 +1,51 @@
+Arena {
+	
+	robot {
+		
+		RangeControlRobot VelociRobot {
+			
+			eventsHandled (
+				Event {
+					eventType ScannedRobot actions {
+						Action { functionName fire parameters 1 }
+					}
+				},
+				Event {
+					eventType HitByBullet actions {
+						Action { setter functionName TurnRate parameters 4}
+					}
+				},
+				Event {
+					eventType HitWall actions {
+						Action { setter functionName VelocityRate parameters "-1 * getVelocityRate()" }
+					}
+				}
+			)
+			runActions {
+				Action {setter functionName GunRotationRate parameters 15}
+			}
+			infiniteLoopActions {
+				Action { comment "Straighten out, if we were hit by a bullet and are turning" setter functionName TurnRate parameters 0 conditions {
+					Condition {
+						identifier turnCounter%64 operator == value 0 last
+					}
+				}},
+				Action { comment "Go forward, velocity of 4" setter functionName VelocityRate parameters 4 conditions {
+					Condition {
+						identifier turnCounter%64 operator == value 0 last
+					}
+				}},
+				Action { comment "Go backwards, faster" setter functionName VelocityRate parameters -6 conditions {
+					Condition {
+						identifier turnCounter%64 operator == value 32 last
+					}
+				}},
+				Action { functionName execute}
+			}
+			
+		}
+		
+	}
+	
+	
+}

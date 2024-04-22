@@ -1,0 +1,118 @@
+grammar org.xtext.example.mydsl.MyDsl with org.eclipse.xtext.common.Terminals
+
+generate domainmodel "http://www.xtext.org/example/mydsl/Domainmodel"
+
+Domainmodel:
+	(
+		('WinCondition' '{' elements+=WinCondition '}') |
+		('Option' '{' elements+=Option '}') |
+		('Issue' '{' elements+=Issue '}') |
+		('Agreement' '{' elements+=Agreement '}') |
+		('Actor' '{' elements+=Actor '}') |
+		('Vote' '{' elements+=Vote '}') |
+		('Stakeholder' '{' elements+=Stakeholder '}') |
+		('Priority' '{' elements+=Priority'}')
+	)*
+;
+
+
+GenericElement:
+	'description' ':' STRING
+;
+
+
+QualifiedName:
+	ID('.'ID)*
+;
+
+
+Actor:
+	'actorID' ':' name=ID
+	supertype=GenericElement
+	'AffectedBy' '{'
+		(
+			('affectedBy' ':' (attr+=[WinCondition|QualifiedName]) | (attr+=[Issue|QualifiedName])
+				(attr+=[Option|QualifiedName]) | (attr+=[Agreement|QualifiedName])
+			)*
+		)
+	'}'
+;
+
+
+Stakeholder:
+	'id' ':' name=ID
+	supertype=Actor
+	'StakeholderVotes' '{' 
+		(
+			('vote' ':' attr+=[Vote|QualifiedName])*
+		)
+	'}'
+;
+
+
+Vote:
+	'id' ':' name=ID
+	supertype=GenericElement
+	'stakeholderID' ':' stakeholder=[Stakeholder|QualifiedName]
+	'voteableID' ':' voteable=[Issue|QualifiedName]
+;
+
+Voteable:
+	supertype=GenericElement
+;
+
+
+Issue:
+	'id' ':' name=ID
+	supertype=Voteable
+	'issueType' ':' value=STRING
+;
+
+
+Option:
+	'id' ':' name=ID
+	supertype=Voteable
+	'addressedIssue' ':' addressed=[Issue|QualifiedName]
+;
+
+
+Agreement:
+	'id' ':' name=ID
+	supertype=GenericElement
+	'adoptedOption' ':' ID
+	'AvailableOptions' '{'
+		(
+			('option' ':' attr+=[Option|QualifiedName])*
+		) 
+	'}'
+;
+
+
+WinCondition:
+	'id' ':' name=ID
+	supertype=Voteable
+	('refines' ':' refines=[WinCondition|QualifiedName])?
+	'Issues' '{'
+		('issue' ':' issues+=[Issue|QualifiedName])*
+	'}'
+	'Agreements' '{'
+		('agreement' ':' agreements+=[Agreement|QualifiedName])*
+	'}'
+	'priority' ':' priority=[Priority|QualifiedName]
+;
+
+
+Priority:
+	'id' ':' name=ID
+	supertype=GenericElement
+	'PriorityRating' '{'
+		(	
+			'businessImportance' ':' NUMBER_ONE_TO_TEN
+			'easeOfRealization' ':' NUMBER_ONE_TO_TEN
+		)
+	'}'
+;
+
+terminal NUMBER_ONE_TO_TEN:
+	('0'..'9') | '1' '0'
+;

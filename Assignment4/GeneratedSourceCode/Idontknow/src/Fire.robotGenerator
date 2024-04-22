@@ -1,0 +1,54 @@
+Arena {
+	robot {
+		Robot Fire {
+			eventsHandled (
+				Event {
+					eventType ScannedRobot actions {
+						Action { comment "If the other robot is close by, and we have plenty of life, fire hard!" functionName fire parameters 3 conditions {
+							Condition {
+								identifier e.getDistance() operator < value 50
+							},
+							Condition {
+								identifier getEnergy() operator > value 50 last
+							}
+						}},
+						Action {
+							comment "Otherwise fire 1" functionName fire parameters 1 conditions {
+								Condition {
+									identifier e.getDistance() operator > value 50
+								},
+								Condition {
+									identifier getEnergy() operator < value 50 last
+								}
+							}	
+						},
+						Action { functionName scan }
+					}
+				},
+				Event { 
+					eventType HitByBullet actions {
+						Action { functionName turnRight parameters "90 - (getHeading() - e. getHeading())" },
+						Action { functionName ahead parameters dist },
+						Action { functionName scan}
+					}
+				},
+				Event {
+					eventType HitRobot actions {
+						Action { functionName turnGunRight parameters turnGunAmt },
+						Action { functionName fire parameters 3 }
+					}
+				}
+			)
+			runActions {
+				Action { comment "Set colors" setter functionName bodyColor parameters Color.red},
+				Action { setter functionName GunColor parameters Color.red},
+				Action { setter functionName RadarColor parameters Color.red},
+				Action { setter functionName ScanColor parameters Color.red},
+				Action { setter functionName BulletColor parameters Color.red}
+			}
+			infiniteLoopActions {
+				Action { functionName turnGunRight parameters 5 }
+			}
+		}
+	}
+}

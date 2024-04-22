@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="robocode" nsURI="http://www.example.org/robocode" nsPrefix="robocode">
+  <eAnnotations source="http://www.eclipse.org/OCL/Import">
+    <details key="ecore" value="http://www.eclipse.org/emf/2002/Ecore"/>
+  </eAnnotations>
+  <eClassifiers xsi:type="ecore:EClass" name="Root">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="drawable" upperBound="-1"
+        eType="#//Drawable" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Drawable">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="robot" upperBound="-1"
+        eType="#//Robot" derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="event" upperBound="-1"
+        eType="#//EventRoot" derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Robot" eSuperTypes="#//Drawable #//INormalEvent">
+    <eOperations name="run"/>
+    <eOperations name="loop"/>
+    <eOperations name="ahead">
+      <eParameters name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    </eOperations>
+    <eOperations name="back">
+      <eParameters name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    </eOperations>
+    <eOperations name="turnRight">
+      <eParameters name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    </eOperations>
+    <eOperations name="turnLeft">
+      <eParameters name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    </eOperations>
+    <eOperations name="fire">
+      <eParameters name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    </eOperations>
+    <eOperations name="scan"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="bodyColor" eType="#//Color"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="gunColor" eType="#//Color"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="bulletColor" eType="#//Color"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="radarColor" eType="#//Color"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="scanColor" eType="#//Color"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hitwallevent" eType="#//HitWallEvent"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hitrobotevent" eType="#//HitRobotEvent"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="winevent" eType="#//WinEvent"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hitbybulletevent" eType="#//HitByBulletEvent"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="deathevent" eType="#//DeathEvent"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="scannedrobotevent" eType="#//ScannedRobotEvent"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="run" upperBound="-1" eType="#//Run"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="loop" upperBound="-1" eType="#//Loop"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="eventroot" upperBound="-1"
+        eType="#//EventRoot" derived="true" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="action" upperBound="-1"
+        eType="#//Action" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EDataType" name="Color" instanceClassName="java.awt.Color"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AdvancedRobot" eSuperTypes="#//Robot #//ICustomEvent">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="customevent" upperBound="-1"
+        eType="#//CustomEvent" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RangeControlRobot" eSuperTypes="#//AdvancedRobot">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="velocityRate" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="turnRate" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="gunTurnRotationRate" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="radarRotationRate" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="INormalEvent" abstract="true" interface="true">
+    <eOperations name="onDeathEvent">
+      <eParameters name="event" eType="#//DeathEvent"/>
+    </eOperations>
+    <eOperations name="onHitRobotEvent">
+      <eParameters name="event" eType="#//HitRobotEvent"/>
+    </eOperations>
+    <eOperations name="onHitByBulletEvent">
+      <eParameters name="event" eType="#//HitByBulletEvent"/>
+    </eOperations>
+    <eOperations name="onHitWallEvent">
+      <eParameters name="event" eType="#//HitWallEvent"/>
+    </eOperations>
+    <eOperations name="onScannedRobotEvent">
+      <eParameters name="event" eType="#//ScannedRobotEvent"/>
+    </eOperations>
+    <eOperations name="onWin">
+      <eParameters name="event" eType="#//WinEvent"/>
+    </eOperations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EventRoot" eSuperTypes="#//Drawable">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="actionEvent" upperBound="-1"
+        eType="#//Action" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DeathEvent" eSuperTypes="#//EventRoot"/>
+  <eClassifiers xsi:type="ecore:EClass" name="HitByBulletEvent" eSuperTypes="#//EventRoot"/>
+  <eClassifiers xsi:type="ecore:EClass" name="HitRobotEvent" eSuperTypes="#//EventRoot"/>
+  <eClassifiers xsi:type="ecore:EClass" name="HitWallEvent" eSuperTypes="#//EventRoot"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ScannedRobotEvent" eSuperTypes="#//EventRoot"/>
+  <eClassifiers xsi:type="ecore:EClass" name="WinEvent" eSuperTypes="#//EventRoot"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Run" eSuperTypes="#//Drawable"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Loop" eSuperTypes="#//Drawable"/>
+  <eClassifiers xsi:type="ecore:EClass" name="CustomEvent" eSuperTypes="#//EventRoot"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ICustomEvent" abstract="true" interface="true">
+    <eOperations name="onCustomEvent">
+      <eParameters name="event" eType="#//CustomEvent"/>
+    </eOperations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Action" eSuperTypes="#//Drawable"/>
+</ecore:EPackage>

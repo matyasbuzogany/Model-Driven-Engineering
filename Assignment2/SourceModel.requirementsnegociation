@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rn:Negotiation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rn="mde.ecore.rn">
+  <stakeholders name="Anna">
+    <position>user</position>
+  </stakeholders>
+  <stakeholders name="Bob">
+    <position>client</position>
+  </stakeholders>
+  <stakeholders name="Charlie">
+    <position>developer</position>
+    <position>tester</position>
+  </stakeholders>
+  <propositions xsi:type="rn:WinCondition" id="1" description="The application should be secured through a login mechanism" proposedBy="//@stakeholders.1">
+    <issues id="4" description="Existing accounts such as Google accounts should be usable for login" proposedBy="//@stakeholders.0"/>
+  </propositions>
+  <propositions xsi:type="rn:WinCondition" id="2" description="The application should run on Windows, MacOS, Android and IOS" proposedBy="//@stakeholders.1"/>
+  <propositions xsi:type="rn:WinCondition" id="3" description=" The application should finish handling requests withing 3 seconds" proposedBy="//@stakeholders.1 //@stakeholders.0">
+    <issues id="5" description="Some requests might require more processing time" proposedBy="//@stakeholders.2"/>
+    <issues id="6" description="The performance of an application depends on the number of users" proposedBy="//@stakeholders.2"/>
+  </propositions>
+  <propositions xsi:type="rn:Option" id="7" description="Google and Facebook authentification should be integrated" proposedBy="//@stakeholders.2" referencedIssue="4">
+    <votes agreement="true" importance="10" stakeholder="//@stakeholders.0"/>
+    <votes agreement="true" importance="5" stakeholder="//@stakeholders.2"/>
+    <votes agreement="true" importance="8" stakeholder="//@stakeholders.1"/>
+  </propositions>
+  <propositions xsi:type="rn:Option" id="8" description="There should be a fixed set timeout for all requests" proposedBy="//@stakeholders.1" referencedIssue="5">
+    <votes agreement="true" importance="1" stakeholder="//@stakeholders.0"/>
+    <votes agreement="true" importance="5" stakeholder="//@stakeholders.2"/>
+    <votes agreement="true" importance="3" stakeholder="//@stakeholders.1"/>
+  </propositions>
+  <propositions xsi:type="rn:Option" id="9" description="Cached responses should be used where feasible to speed up the request porcessing" proposedBy="//@stakeholders.2" referencedIssue="5">
+    <votes agreement="true" importance="6" stakeholder="//@stakeholders.2"/>
+  </propositions>
+  <propositions xsi:type="rn:Option" id="10" description="A loading sign should be displayed for requests that require long processing time" proposedBy="//@stakeholders.0" referencedIssue="5">
+    <votes agreement="true" importance="8" stakeholder="//@stakeholders.1"/>
+    <votes agreement="true" importance="10" stakeholder="//@stakeholders.0"/>
+    <votes agreement="true" importance="9" stakeholder="//@stakeholders.2"/>
+  </propositions>
+  <propositions xsi:type="rn:Option" id="11" description="The application should handle a minimum of 100 users simultaneously." proposedBy="//@stakeholders.1" referencedIssue="6">
+    <votes agreement="true" importance="5" stakeholder="//@stakeholders.2"/>
+    <votes agreement="true" importance="9" stakeholder="//@stakeholders.1"/>
+    <votes agreement="true" importance="3" stakeholder="//@stakeholders.0"/>
+  </propositions>
+  <propositions xsi:type="rn:Option" id="12" description="The application should not allow more than 100 simultaneous users to connect" proposedBy="//@stakeholders.0" referencedIssue="6">
+    <votes agreement="false" importance="5" stakeholder="//@stakeholders.0"/>
+    <votes agreement="true" importance="8" stakeholder="//@stakeholders.2"/>
+    <votes agreement="false" importance="5" stakeholder="//@stakeholders.1"/>
+  </propositions>
+</rn:Negotiation>

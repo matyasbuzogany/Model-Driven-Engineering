@@ -1,0 +1,19 @@
+SpinBot is a type of AdvancedRobot. 
+It is initialized by setting: 
+	bodyColor to Color.blue
+	gunColor to Color.blue
+	radarColor to Color.black
+	scanColor to Color.yellow
+	
+The behaviour is defined in the infinite loop by setting: 
+	turnRight to 10000
+	maxVelocity to 5
+	ahead to 10000
+
+When the SpinBot gets the ScannedRobot event, it will set/execute: 
+	fire to 3
+	
+When the SpinBot gets the HitRobot event, it will set/execute: 
+	fire to 3   ->   on the Condition:  {  e.getBearing() > -10 && e.getBearing() < 10  }
+	turnRight to 10   ->   on the Condition:  {  e.isMyFault()    }
+	

@@ -1,0 +1,25 @@
+Fire is a type of Robot. 
+It is initialized by setting: 
+	bodyColor to Color.red
+	GunColor to Color.red
+	RadarColor to Color.red
+	ScanColor to Color.red
+	BulletColor to Color.red
+	
+The behaviour is defined in the infinite loop by setting: 
+	turnGunRight to 5
+
+When the Fire gets the ScannedRobot event, it will set/execute: 
+	fire to 3   ->   on the Condition:  {  e.getDistance() < 50 && getEnergy() > 50  }
+	fire to 1   ->   on the Condition:  {  e.getDistance() > 50 && getEnergy() < 50  }
+	scan to 
+	
+When the Fire gets the HitByBullet event, it will set/execute: 
+	turnRight to "90 - (getHeading() - e. getHeading())"
+	ahead to dist
+	scan to 
+	
+When the Fire gets the HitRobot event, it will set/execute: 
+	turnGunRight to turnGunAmt
+	fire to 3
+	

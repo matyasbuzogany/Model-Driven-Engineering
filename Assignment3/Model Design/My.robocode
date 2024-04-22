@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robocode:Root xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:robocode="http://www.example.org/robocode">
+  <drawable xsi:type="robocode:EventRoot"/>
+  <drawable xsi:type="robocode:Run" name="RunAction"/>
+  <drawable xsi:type="robocode:AdvancedRobot" name="Target">
+    <run name="bodyColor = Color.white"/>
+    <run name="gunColor = color.white"/>
+    <run name="radarColor = Color.white"/>
+    <run name="trigger = 80"/>
+    <customevent name="Trigger Hit Event">
+      <actionEvent name="trigger -= 20"/>
+      <actionEvent name="turnLeft = 65"/>
+      <actionEvent name="ahead = 100"/>
+    </customevent>
+  </drawable>
+  <drawable xsi:type="robocode:Robot" name="Fire">
+    <hitrobotevent>
+      <actionEvent name="turnGunRight = turnGunAmt"/>
+      <actionEvent name="fire = 3"/>
+    </hitrobotevent>
+    <hitbybulletevent name="">
+      <actionEvent name="dist = 50"/>
+      <actionEvent name="turnRight = 90 - (getHeading() - e.getHeading())"/>
+      <actionEvent name="ahead = dist"/>
+      <actionEvent name="scan()"/>
+    </hitbybulletevent>
+    <scannedrobotevent>
+      <actionEvent name="fire = 3"/>
+      <actionEvent name="fire = 1"/>
+      <actionEvent name="scan()"/>
+    </scannedrobotevent>
+    <run name="bodyColor = Color.orange"/>
+    <run name="gunColor = Color.orange"/>
+    <run name="radarColor = Color.red"/>
+    <run name="scanColor = Color.red"/>
+    <run name="bulletColor = Color.red"/>
+    <action name="turnRight = 5"/>
+  </drawable>
+  <drawable xsi:type="robocode:RangeControlRobot" name="VelociRobot">
+    <hitwallevent>
+      <actionEvent name="velocityRate = (-1 * velocityRate)"/>
+    </hitwallevent>
+    <hitbybulletevent name="">
+      <actionEvent name="turnRate = 5"/>
+    </hitbybulletevent>
+    <scannedrobotevent>
+      <actionEvent name="fire = 1"/>
+    </scannedrobotevent>
+    <run name="turnCounter = 0"/>
+    <run name="gunTurnRotationRate = 15"/>
+    <action name="turnRate = 0"/>
+    <action name="velocityRate = 4"/>
+    <action name="turnCounter++"/>
+  </drawable>
+</robocode:Root>

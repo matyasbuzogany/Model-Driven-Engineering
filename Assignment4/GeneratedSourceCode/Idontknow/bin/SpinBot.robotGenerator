@@ -1,0 +1,47 @@
+Arena {
+	robot {
+		AdvancedRobot SpinBot {
+			eventsHandled (
+				Event { 
+					eventType ScannedRobot actions { 
+						Action { 
+							comment "onScannedRobot: Fire hard!" functionName fire parameters 3 
+						}
+					}
+				},
+				Event {
+					eventType HitRobot actions {
+						Action { 
+							comment "onHitRobot:  If it's our fault, we'll stop turning and moving, so we need to turn again to keep spinning." functionName fire parameters 3 conditions {
+								Condition {
+									identifier e.getBearing() operator > value -10
+								},
+								Condition {
+									identifier e.getBearing() operator < value 10 last
+								}
+							}
+						},
+						Action { 
+							functionName turnRight parameters 10 conditions {
+								Condition {
+									identifier e.isMyFault() last
+								}
+							}
+						} 
+					}
+				}
+			)
+			runActions {
+				Action { comment "Set color" setter functionName bodyColor parameters Color.blue},
+				Action { setter functionName gunColor parameters Color.blue},
+				Action { setter functionName radarColor parameters Color.black},
+				Action { setter functionName scanColor parameters Color.yellow}
+			}
+			infiniteLoopActions {
+				Action { comment "Tell the game that when we take move, we'll also want to turn right... a lot." setter functionName turnRight parameters 10000},
+				Action { comment "Limit our speed to 5" setter functionName maxVelocity parameters 5},
+				Action { comment "Start moving (and turning)" functionName ahead parameters 10000}
+			}
+		}
+	}
+}

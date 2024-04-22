@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="robocode" version="12.0.0.2017041100">
+  <ownedViewpoints name="MyViewpoint">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="DiagramDescription" domainClass="robocode::Root">
+      <defaultLayer name="Default" icon="aql: not self.contains('Advanced')">
+        <edgeMappings name="robotToDeathEvent" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot'] //@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='AdvancedRobot'] //@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='RangeControlRobot']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='DeathEvent']" targetFinderExpression="feature:deathevent">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="robotToHitByBulletEvent" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='AdvancedRobot'] //@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot'] //@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='RangeControlRobot']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitByBulletEvent']" targetFinderExpression="feature:hitbybulletevent">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="robotToHitRobotEvent" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot'] //@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='AdvancedRobot'] //@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='RangeControlRobot']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitRobotEvent']" targetFinderExpression="feature:hitrobotevent">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="robotToHitWallEvent" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot'] //@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='AdvancedRobot'] //@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='RangeControlRobot']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitWallEvent']" targetFinderExpression="feature:hitwallevent">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="robotToScannedRobotEvent" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot'] //@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='AdvancedRobot'] //@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='RangeControlRobot']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='ScannedRobotEvent']" targetFinderExpression="feature:scannedrobotevent">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="robotToWinEvent" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot'] //@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='AdvancedRobot'] //@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='RangeControlRobot']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='WinEvent']" targetFinderExpression="feature:winevent">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="robotToCustomEvent" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='AdvancedRobot'] //@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='RangeControlRobot']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='CustomEvent']" targetFinderExpression="feature:customevent">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="Robot" preconditionExpression="aql:not self.toString().contains('Advanced') and not self.toString().contains('Range')" labelDirectEdit="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@toolSections.1/@ownedTools[name='editLabel']" domainClass="robocode::Robot" childrenPresentation="List">
+          <subNodeMappings name="runAction" labelDirectEdit="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@toolSections.1/@ownedTools[name='editLabel']" semanticCandidatesExpression="feature:eAllContents" domainClass="robocode::Run">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="action" semanticCandidatesExpression="feature:eAllContents" domainClass="robocode::Action">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="15" roundedCorner="true">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="AdvancedRobot" preconditionExpression="aql:not self.toString().contains('Range')" labelDirectEdit="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@toolSections.1/@ownedTools[name='editLabel']" domainClass="robocode::AdvancedRobot" childrenPresentation="List">
+          <subNodeMappings name="runActionAdvanced" semanticCandidatesExpression="feature:eAllContents" domainClass="robocode::Run">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="actionAdvanced" semanticCandidatesExpression="feature:eAllContents" domainClass="robocode::Action">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="15" roundedCorner="true">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="RangeControlRobot" labelDirectEdit="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@toolSections.1/@ownedTools[name='editLabel']" domainClass="robocode::RangeControlRobot" childrenPresentation="List">
+          <subNodeMappings name="runActionRanged" semanticCandidatesExpression="feature:eAllContents" domainClass="robocode::Run">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="actionRanged" semanticCandidatesExpression="feature:eAllContents" domainClass="robocode::Action">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" roundedCorner="true">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_orange']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="HitByBulletEvent" labelDirectEdit="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@toolSections.1/@ownedTools[name='editLabel']" domainClass="robocode::HitByBulletEvent" childrenPresentation="List">
+          <subNodeMappings name="actionHitEvent" semanticCandidatesExpression="feature:eAllContents" domainClass="robocode::Action">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:ShapeContainerStyleDescription" borderSizeComputationExpression="1" borderLineStyle="dot" labelSize="12" labelExpression="Hit By Bullet Event">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_red']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="HitRobotEvent" labelDirectEdit="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@toolSections.1/@ownedTools[name='editLabel']" domainClass="robocode::HitRobotEvent" childrenPresentation="List">
+          <subNodeMappings name="actionHitRobotEvent" semanticCandidatesExpression="feature:eAllContents" domainClass="robocode::Action">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:ShapeContainerStyleDescription" borderSizeComputationExpression="1" borderLineStyle="dot" labelSize="12" labelExpression="Hit Robot Event">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_blue']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="HitWallEvent" labelDirectEdit="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@toolSections.1/@ownedTools[name='editLabel']" domainClass="robocode::HitWallEvent" childrenPresentation="List">
+          <subNodeMappings name="actionWallEvent" semanticCandidatesExpression="feature:eAllContents" domainClass="robocode::Action">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:ShapeContainerStyleDescription" borderSizeComputationExpression="1" borderLineStyle="dot" labelSize="12" labelExpression="Hit Wall Event" roundedCorner="true">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_orange']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="ScannedRobotEvent" labelDirectEdit="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@toolSections.1/@ownedTools[name='editLabel']" domainClass="robocode::ScannedRobotEvent" childrenPresentation="List">
+          <subNodeMappings name="actionScannedEvent" semanticCandidatesExpression="feature:eAllContents" domainClass="robocode::Action">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:ShapeContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="Scanned Robot Event">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_purple']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="WinEvent" labelDirectEdit="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@toolSections.1/@ownedTools[name='editLabel']" domainClass="robocode::WinEvent" childrenPresentation="List">
+          <subNodeMappings name="actionWinEvent" semanticCandidatesExpression="feature:eAllContents" domainClass="robocode::Action">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:ShapeContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="Win Event">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_green']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="CustomEvent" labelDirectEdit="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@toolSections.1/@ownedTools[name='editLabel']" domainClass="robocode::CustomEvent" childrenPresentation="List">
+          <subNodeMappings name="actionCustomEvent" semanticCandidatesExpression="feature:eAllContents" domainClass="robocode::Action">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:ShapeContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" labelExpression="Custom Event">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_yellow']"/>
+          </style>
+        </containerMappings>
+        <containerMappings name="DeathEvent" labelDirectEdit="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@toolSections.1/@ownedTools[name='editLabel']" domainClass="robocode::DeathEvent" childrenPresentation="List">
+          <subNodeMappings name="actionDeathEvent" semanticCandidatesExpression="feature:eAllContents" domainClass="robocode::Action">
+            <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:ShapeContainerStyleDescription" borderSizeComputationExpression="1" borderLineStyle="dot" labelSize="12" labelExpression="Death Event">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_gray']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="Event Section">
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="createDeathEvent" label="Death Event" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='DeathEvent']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="robocode::DeathEvent" referenceName="drawable"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="createHitByBulletEvent" label="Hit By Bullet Event" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitByBulletEvent']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="robocode::HitByBulletEvent" referenceName="drawable"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="createHitRobotEvent" label="Hit Robot Event" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitRobotEvent']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="robocode::HitRobotEvent" referenceName="drawable"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="createHitWallEvent" label="Hit Wall Event" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitWallEvent']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="robocode::HitWallEvent" referenceName="drawable"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="createScannedRobotEvent" label="Scanned Robot Event" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='ScannedRobotEvent']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="robocode::ScannedRobotEvent" referenceName="drawable"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="createWinEvent" label="Win Event" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='WinEvent']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="robocode::WinEvent" referenceName="drawable"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="createCustomEvent" label="Custom Event" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='CustomEvent']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="robocode::CustomEvent" referenceName="drawable"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="Robot Section">
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="createRobot" label="Robot" forceRefresh="true" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="robocode::Robot" referenceName="drawable"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="createAdvancedRobot" label="Advanced Robot" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='AdvancedRobot']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="robocode::AdvancedRobot" referenceName="drawable"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="createRangeControlRobot" label="Range Control Robot" containerMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='RangeControlRobot']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="robocode::RangeControlRobot" referenceName="drawable"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="editLabel" label="Edit Label">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Run Action" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='runAction'] //@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='AdvancedRobot']/@subNodeMappings[name='runActionAdvanced'] //@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='RangeControlRobot']/@subNodeMappings[name='runActionRanged']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="robocode::Run" referenceName="run"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="actionRobot" label="Loop Action Robot" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='Robot']/@subNodeMappings[name='action'] //@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='AdvancedRobot']/@subNodeMappings[name='actionAdvanced'] //@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='RangeControlRobot']/@subNodeMappings[name='actionRanged']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="robocode::Action" referenceName="action"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="actionEvent" label="Action Event" nodeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='DeathEvent']/@subNodeMappings[name='actionDeathEvent'] //@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitByBulletEvent']/@subNodeMappings[name='actionHitEvent'] //@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitRobotEvent']/@subNodeMappings[name='actionHitRobotEvent'] //@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='CustomEvent']/@subNodeMappings[name='actionCustomEvent'] //@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='HitWallEvent']/@subNodeMappings[name='actionWallEvent'] //@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='ScannedRobotEvent']/@subNodeMappings[name='actionScannedEvent'] //@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@containerMappings[name='WinEvent']/@subNodeMappings[name='actionWinEvent']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="robocode::Action" referenceName="actionEvent"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="hadleDeathEvent" label="Handle Death Event" edgeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@edgeMappings[name='robotToDeathEvent']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="deathevent" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="handleHitByBulletEvent" label="Handle Hit By Bullet Event" edgeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@edgeMappings[name='robotToHitByBulletEvent']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="hitbybulletevent" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="handleHitRobotEvent" label="Handle Hit Robot Event" edgeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@edgeMappings[name='robotToHitRobotEvent']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="hitrobotevent" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="handleHitWallEvent" label="Handle Hit Wall Event" edgeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@edgeMappings[name='robotToHitWallEvent']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="hitwallevent" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="handleScannedRobotEvent" label="Handle Scanned Robot Event" edgeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@edgeMappings[name='robotToScannedRobotEvent']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="scannedrobotevent" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="handleWinEvent" label="Handle Win Event" edgeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@edgeMappings[name='robotToWinEvent']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="winevent" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="handleCustomEvent" label="Handle Custom Event" edgeMappings="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='DiagramDescription']/@defaultLayer/@edgeMappings[name='robotToCustomEvent']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="customevent" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+  </ownedViewpoints>
+</description:Group>

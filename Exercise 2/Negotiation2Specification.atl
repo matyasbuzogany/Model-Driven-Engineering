@@ -1,0 +1,57 @@
+
+-- @path Negotiation=/Assignment2/RequirementsNegotiation.ecore
+-- @path Specification=/Assignment2/RequirementsSpecification.ecore
+
+module Negotiation2Specification;
+
+create OUT: Specification from IN: Negotiation;
+
+rule Stakeholder2Actor {
+	from
+		stakeholder:Negotiation!Stakeholder
+	to
+		actor : distinct Specification!Actor foreach(p in stakeholder.position)(
+			role <- p	
+		)			
+}
+
+
+
+helper context Negotiation!WinCondition def : noIssues() : Boolean =
+	if self.issues.isEmpty() then
+		true
+	else
+		false
+	endif;
+
+rule WinCondition2Requirement {
+	from 
+		wincondition:Negotiation!WinCondition(wincondition.noIssues())
+	to
+		requirement:Specification!Requirement(
+			id <- wincondition.id,
+			description <- wincondition.description,
+			importance <- 10
+		)
+}
+
+
+
+helper context Negotiation!Option def: noVotesAgainst() : Boolean =
+	self.votes -> collect (vote | vote.agreement) 
+		-> forAll(i | i = true);
+
+helper context Negotiation!Option def: voteImportanceAverage() : Integer =
+	self.votes -> collect(vote | vote.importance) 
+		-> iterate(i; sum: Integer = 0 | sum + i) div self.votes.size();
+
+rule Option2Requirement {
+	from
+		option:Negotiation!Option(option.noVotesAgainst())
+	to
+		requirement:Specification!Requirement(
+			id <- option.id,
+			description <- option.description,
+			importance <- option.voteImportanceAverage()
+		)
+}

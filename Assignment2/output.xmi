@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:rs="mde.ecore.rs">
+  <rs:Actor role="user"/>
+  <rs:Actor role="client"/>
+  <rs:Actor role="developer"/>
+  <rs:Actor role="tester"/>
+  <rs:Requirement id="2" description="The application should run on Windows, MacOS, Android and IOS" importance="10"/>
+  <rs:Requirement id="7" description="Google and Facebook authentification should be integrated" importance="7"/>
+  <rs:Requirement id="8" description="There should be a fixed set timeout for all requests" importance="3"/>
+  <rs:Requirement id="9" description="Cached responses should be used where feasible to speed up the request porcessing" importance="6"/>
+  <rs:Requirement id="10" description="A loading sign should be displayed for requests that require long processing time" importance="9"/>
+  <rs:Requirement id="11" description="The application should handle a minimum of 100 users simultaneously." importance="5"/>
+</xmi:XMI>

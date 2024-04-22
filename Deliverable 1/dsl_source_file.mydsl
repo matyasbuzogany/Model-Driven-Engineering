@@ -1,0 +1,150 @@
+
+Issue {
+	id : issue1
+	description : 'The robots movement strategy makes it lose in the first round'
+	issueType : 'risk'
+}
+
+Issue {
+	id : issue2
+	description : 'The robot can only have one movement strategy'
+	issueType : 'conflict'
+}
+
+Issue {
+	id : issue3
+	description : 'The robot doesnt have a good targeting strategy'
+	issueType : 'uncertainty'
+}
+
+Issue {
+	id : issue4
+	description : 'The robots energy management system is developed in a way that can hurt its chances of winning'
+	issueType : 'risk'
+}
+
+
+
+
+Option {
+	id : optionForSurfingMovement
+	description : 'A Surfing movement algorithm can be added'
+	addressedIssue : issue1
+}
+
+Option {
+	id : optionForWallSmoothingMovement
+	description : 'A Wall Smoothing movement algorithm can be added'
+	addressedIssue : issue1
+}
+
+Option {
+	id : optionForGuessFactorTargeting
+	description : 'One of the best targeting strategies can be added'
+	addressedIssue : issue3
+}
+
+Option {
+	id : optionForBinarySearch
+	description : 'Binary search targeting strategy can be added'
+	addressedIssue : issue3
+}
+
+Option {
+	id : optionReducedFirepower
+	description : 'Reducing firepower at long ranges to improve energy savings'
+	addressedIssue : issue4
+}
+
+
+
+
+Agreement {
+	id : agreementOnMovement
+	description : 'Agreeing on the suitable Robot movement strategy'
+	adoptedOption : optionWallSmoothingMovement
+	AvailableOptions {
+		option : optionForSurfingMovement
+		option : optionForWallSmoothingMovement
+	}
+}
+
+Agreement {
+	id : agreementOnTargeting
+	description : 'Selecting the suitable targeting strategy'
+	adoptedOption : optionForGuessFactorTargeting
+	AvailableOptions {
+		option : optionForGuessFactorTargeting
+		option : optionForBinarySearch
+	}
+}
+
+Agreement {
+	id : agreementOnEnergyManagement
+	description : 'Selecting the only energy saving measure available'
+	adoptedOption : optionReducedFirepower
+	AvailableOptions {
+		option : optionReducedFirepower
+	}
+}
+
+
+
+
+Priority {
+	id : priority1
+	description : 'Priority rating for the movement and targeting strategies'
+	PriorityRating {
+		businessImportance : 8
+		easeOfRealization : 2
+	}
+}
+
+Priority {
+	id : priority2
+	description : 'Priority for the energy management strategy'
+	PriorityRating {
+		businessImportance : 6
+		easeOfRealization : 9
+	}
+}
+
+
+
+
+WinCondition {
+	id : winConditionMovement
+	description : 'The full Win condition regarding the movement and targeting negotiation'
+	Issues {
+		issue : issue1
+		issue : issue2
+		issue : issue3
+	}
+	Agreements {
+		agreement : agreementOnMovement
+		agreement : agreementOnTargeting
+	}
+	priority : priority1
+}
+
+WinCondition {
+	id : winConditionEnergy
+	description : 'The full Win condition regarding energy management negotiation'
+	Issues {
+		issue : issue4
+	}
+	Agreements {
+		agreement : agreementOnEnergyManagement
+	}
+	priority : priority2
+}
+
+
+
+
+
+
+
+
+
+
